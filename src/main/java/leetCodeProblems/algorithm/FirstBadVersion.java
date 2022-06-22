@@ -1,4 +1,4 @@
-package main.java.leetCodeProblems;
+package main.java.leetCodeProblems.algorithm;
 
 /**
  * You are a product manager and currently leading a team to develop a new product. Unfortunately, the latest version of
@@ -8,7 +8,6 @@ package main.java.leetCodeProblems;
  * the first bad version. You should minimize the number of calls to the API.
  *
  * Example 1:
- *
  * Input: n = 5, bad = 4
  * Output: 4
  * Explanation:
@@ -16,13 +15,12 @@ package main.java.leetCodeProblems;
  * call isBadVersion(5) -> true
  * call isBadVersion(4) -> true
  * Then 4 is the first bad version.
- * Example 2:
  *
+ * Example 2:
  * Input: n = 1, bad = 1
  * Output: 1
  *
  * Constraints:
- *
  * 1 <= bad <= n <= 231 - 1
  *
  */
