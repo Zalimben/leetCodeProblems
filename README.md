@@ -13,6 +13,8 @@ I will push [LeetCode](https://leetcode.com/) Solutions to this project
 - [Move Zeroes](src/main/java/leetCodeProblems/algorithm/MoveZeroes.java)
 - [ReverseString](src/main/java/leetCodeProblems/algorithm/ReverseString.java)
 - [ReverseWordsInString](src/main/java/leetCodeProblems/algorithm/ReverseWordsInString.java)
+- [MiddleOfLinkedList](src/main/java/leetCodeProblems/algorithm/MiddleOfLinkedList.java)
 #### Medium
 - [Rotate Array](src/main/java/leetCodeProblems/algorithm/RotateArray.java)
 - [Two Sum II - Input Array Is Sorted](src/main/java/leetCodeProblems/algorithm/TwoSum.java)
+- [Remove Node From End List](src/main/java/leetCodeProblems/algorithm/RemoveNodeFromEndList.java)
