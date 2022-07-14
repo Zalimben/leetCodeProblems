@@ -18,3 +18,6 @@ I will push [LeetCode](https://leetcode.com/) Solutions to this project
 - [Rotate Array](src/main/java/leetCodeProblems/algorithm/RotateArray.java)
 - [Two Sum II - Input Array Is Sorted](src/main/java/leetCodeProblems/algorithm/TwoSum.java)
 - [Remove Node From End List](src/main/java/leetCodeProblems/algorithm/RemoveNodeFromEndList.java)
+
+### Miscellaneous
+- [Example Stream/Iteration Transformation](src/main/java/leetCodeProblems/algorithm/ExampleStreamTransformation.java)
