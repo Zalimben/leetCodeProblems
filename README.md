@@ -14,6 +14,7 @@ I will push [LeetCode](https://leetcode.com/) Solutions to this project
 - [ReverseString](src/main/java/leetCodeProblems/algorithm/ReverseString.java)
 - [ReverseWordsInString](src/main/java/leetCodeProblems/algorithm/ReverseWordsInString.java)
 - [MiddleOfLinkedList](src/main/java/leetCodeProblems/algorithm/MiddleOfLinkedList.java)
+- [PascalTriangle](src/main/java/leetCodeProblems/algorithm/PascalTriangle.java)
 #### Medium
 - [Rotate Array](src/main/java/leetCodeProblems/algorithm/RotateArray.java)
 - [Two Sum II - Input Array Is Sorted](src/main/java/leetCodeProblems/algorithm/TwoSum.java)
