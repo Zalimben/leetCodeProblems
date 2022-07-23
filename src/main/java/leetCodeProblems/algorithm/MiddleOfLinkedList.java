@@ -1,5 +1,7 @@
 package main.java.leetCodeProblems.algorithm;
 
+import main.java.leetCodeProblems.algorithm.common.ListNode;
+
 /**
  * Given the head of a singly linked list, return the middle node of the linked list.
  * If there are two middle nodes, return the second middle node.
@@ -17,14 +19,6 @@ package main.java.leetCodeProblems.algorithm;
  * Constraints:
  * The number of nodes in the list is in the range [1, 100].
  *
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
  */
 public class MiddleOfLinkedList
 {
@@ -35,16 +29,14 @@ public class MiddleOfLinkedList
         ListNode third = new ListNode(3);
         ListNode four = new ListNode(4);
         ListNode five = new ListNode(5);
+        head.print();
         head.next = second;
         second.next = third;
         third.next = four;
         four.next = five;
 
         ListNode result = middleNode(head);
-        while (result != null) {
-            System.out.print(result.val);
-            result = result.next;
-        }
+        result.print();
     }
 
     private static ListNode middleNode(ListNode head)
@@ -70,11 +62,4 @@ public class MiddleOfLinkedList
         return midListNode;
     }
 
-    static class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-    }
 }

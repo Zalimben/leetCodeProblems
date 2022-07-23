@@ -54,7 +54,7 @@ public class LongestSubstringWithoutRepeatingChars
         testStrings.forEach( s -> System.out.println(lengthOfLongestSubstring(s)));
     }
 
-    private static int longestSubstring(String s)
+    public static int longestSubstring(String s)
     {
         int max = 0;
         if(s.length() == 0) {
