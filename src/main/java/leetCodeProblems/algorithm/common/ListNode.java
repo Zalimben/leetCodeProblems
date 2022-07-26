@@ -44,6 +44,12 @@ public class ListNode
         }
     }
 
+    public ListNode(ListNode node)
+    {
+        this.val = node.val;
+        this.next = node.next;
+    }
+
     public void print() {
         ListNode node = this;
         while (Objects.nonNull(node)) {
@@ -54,8 +60,8 @@ public class ListNode
     }
 
     public static ListNode init() {
-        ListNode head = new ListNode(0);
-        int idx = 1;
+        ListNode head = new ListNode(1);
+        int idx = 2;
         while (idx < 6) {
             addNodeValue(head, idx);
             idx++;
