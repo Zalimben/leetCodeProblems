@@ -1,4 +1,4 @@
-package main.java.leetCodeProblems.algorithm;
+package main.java.algorithm;
 
 /**
  * 344. Reverse String

@@ -1,4 +1,4 @@
-package main.java.leetCodeProblems.algorithm.common;
+package main.java.algorithm.common;
 
 import java.util.List;
 import java.util.Objects;

@@ -1,4 +1,4 @@
-package main.java.leetCodeProblems.algorithm;
+package main.java.algorithm;
 
 import java.time.Instant;
 import java.time.ZonedDateTime;

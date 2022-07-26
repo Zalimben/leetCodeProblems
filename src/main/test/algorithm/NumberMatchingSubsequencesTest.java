@@ -1,7 +1,7 @@
 package main.test.algorithm;
 
 
-import static main.java.leetCodeProblems.algorithm.NumberMatchingSubsequences.numMatchingSubseq;
+import static main.java.algorithm.NumberMatchingSubsequences.numMatchingSubseq;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.DynamicTest.dynamicTest;
 
@@ -16,7 +16,7 @@ import org.junit.jupiter.api.TestFactory;
 class NumberMatchingSubsequencesTest
 {
     @TestFactory
-    Stream<DynamicTest> dynamicTestsExample() {
+    Stream<DynamicTest> dynamicTests() {
         List<String> input1List = List.of(
             "abcde",
             "dsahjpjauf",

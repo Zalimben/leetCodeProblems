@@ -1,8 +1,8 @@
-package main.java.leetCodeProblems.algorithm;
+package main.java.algorithm;
 
 import java.util.Objects;
 
-import main.java.leetCodeProblems.algorithm.common.ListNode;
+import main.java.algorithm.common.ListNode;
 
 /**
  * 92. Reverse Linked List II

@@ -1,6 +1,6 @@
 package main.test.algorithm;
 
-import static main.java.leetCodeProblems.algorithm.LongestSubstringWithoutRepeatingChars.longestSubstring;
+import static main.java.algorithm.LongestSubstringWithoutRepeatingChars.longestSubstring;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.DynamicTest.dynamicTest;
 
@@ -15,7 +15,7 @@ class LongestSubstringWithoutRepeatingCharsTest
 {
 
     @TestFactory
-    Stream<DynamicTest> dynamicTestsExample() {
+    Stream<DynamicTest> dynamicTests() {
         List<String> testStrings = List.of(
             "abcabcbb",
             "bbbbb",

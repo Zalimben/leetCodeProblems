@@ -1,6 +1,6 @@
-package main.java.leetCodeProblems.algorithm;
+package main.java.algorithm;
 
-import main.java.leetCodeProblems.algorithm.common.ListNode;
+import main.java.algorithm.common.ListNode;
 
 /**
  * 19. Remove Nth Node From End of List

@@ -1,8 +1,6 @@
 package main.test.algorithm;
 
-import static main.java.leetCodeProblems.algorithm.PartitionList.partition;
-import static main.java.leetCodeProblems.algorithm.ReverseLinkedListII.reverseBetween;
-import static main.java.leetCodeProblems.algorithm.ReverseLinkedListII.reverseBetweenSol;
+import static main.java.algorithm.ReverseLinkedListII.reverseBetween;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.DynamicTest.dynamicTest;
 
@@ -10,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
 
-import main.java.leetCodeProblems.algorithm.common.ListNode;
+import main.java.algorithm.common.ListNode;
 import org.junit.jupiter.api.DynamicTest;
 import org.junit.jupiter.api.TestFactory;
 import org.testng.internal.collections.Pair;
@@ -18,7 +16,7 @@ import org.testng.internal.collections.Pair;
 class ReverseLinkedListIITest
 {
     @TestFactory
-    Stream<DynamicTest> dynamicTestsExample() {
+    Stream<DynamicTest> dynamicTests() {
         List<List<Integer>> testIntegers = List.of(
             List.of(1, 2, 3, 4, 5),
             List.of(3, 1, 3, 2, 3),
