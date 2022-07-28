@@ -8,6 +8,7 @@ I will push [LeetCode](https://leetcode.com/) Solutions to this project
 #### Easy
 - [35. Search Insert Position](src/main/java/algorithm/SearchInsertPosition.java)
 - [118. Pascal's Triangle](src/main/java/algorithm/PascalTriangle.java)
+- [242. Valid Anagram](src/main/java/algorithm/ValidAnagram.java)
 - [278. First Bad Version](src/main/java/algorithm/BinarySearchProblem.java)
 - [283. Move Zeroes](src/main/java/algorithm/MoveZeroes.java)
 - [344. Reverse String](src/main/java/algorithm/ReverseString.java)

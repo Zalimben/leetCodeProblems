@@ -1,8 +1,9 @@
 package main.java.algorithm;
 
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
+
+import main.java.algorithm.utils.StringUtils;
 
 /**
  * 567. Permutation in String
@@ -50,20 +51,14 @@ public class PermutationString
             idx++;
         }
 
-        s1 = sort(s1);
+        s1 = StringUtils.sort(s1);
         for( String words : charMap ) {
-            words = sort(words);
+            words = StringUtils.sort(words);
             if( words.equals(s1) ) {
                 return true;
             }
         }
         return false;
-    }
-
-    public static String sort(String s) {
-        char[] t = s.toCharArray();
-        Arrays.sort(t);
-        return new String(t);
     }
 
 }
