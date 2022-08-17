@@ -6,6 +6,7 @@ I will push [LeetCode](https://leetcode.com/) Solutions to this project
 
 ### Algorithm
 #### Easy
+- [1. Two Sum](src/main/java/algorithm/TwoSum.java)
 - [35. Search Insert Position](src/main/java/algorithm/SearchInsertPosition.java)
 - [118. Pascal's Triangle](src/main/java/algorithm/PascalTriangle.java)
 - [242. Valid Anagram](src/main/java/algorithm/ValidAnagram.java)
