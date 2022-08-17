@@ -15,6 +15,7 @@ I will push [LeetCode](https://leetcode.com/) Solutions to this project
 - [557. Reverse Words in a String III](src/main/java/algorithm/ReverseWordsInString.java)
 - [704. Binary Search](src/main/java/algorithm/BinarySearchProblem.java)
 - [733. Flood Fill](src/main/java/algorithm/FloodFill.java)
+- [804. Unique Morse Code Words](src/main/java/algorithm/UniqueMorseCodeWords.java)
 - [876. Middle of the Linked List](src/main/java/algorithm/MiddleOfLinkedList.java)
 - [977. Squares of a Sorted Array](src/main/java/algorithm/SquaresSortedArray.java)
 #### Medium
