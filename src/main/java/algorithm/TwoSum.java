@@ -59,6 +59,10 @@ public class TwoSum
         return new int[]{-1,-1};
     }
 
+    /**
+     * Brute Force
+     * Using nested loop to check all elements
+     */
     public static int[] twoSumBruteForce(int[] nums, int target) {
         for(int idx = 0; idx < nums.length; idx++) {
             for(int idx2 = idx +1; idx2 < nums.length; idx2++) {

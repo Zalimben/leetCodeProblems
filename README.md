@@ -20,6 +20,7 @@ I will push [LeetCode](https://leetcode.com/) Solutions to this project
 - [876. Middle of the Linked List](src/main/java/algorithm/MiddleOfLinkedList.java)
 - [977. Squares of a Sorted Array](src/main/java/algorithm/SquaresSortedArray.java)
 #### Medium
+- [2. Add Two Numbers](src/main/java/algorithm/AddTwoNumbers.java)
 - [3. Longest Substring Without Repeating Characters](src/main/java/algorithm/LongestSubstringWithoutRepeatingChars.java)
 - [19. Remove Nth Node From End of List](src/main/java/algorithm/RemoveNodeFromEndList.java)
 - [86. Partition List](src/main/java/algorithm/PartitionList.java)
