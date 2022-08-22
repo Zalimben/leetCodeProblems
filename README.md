@@ -12,6 +12,7 @@ I will push [LeetCode](https://leetcode.com/) Solutions to this project
 - [242. Valid Anagram](src/main/java/algorithm/ValidAnagram.java)
 - [278. First Bad Version](src/main/java/algorithm/BinarySearchProblem.java)
 - [283. Move Zeroes](src/main/java/algorithm/MoveZeroes.java)
+- [342. Power of Four](src/main/java/algorithm/PowerOfFour.java)
 - [344. Reverse String](src/main/java/algorithm/ReverseString.java)
 - [557. Reverse Words in a String III](src/main/java/algorithm/ReverseWordsInString.java)
 - [704. Binary Search](src/main/java/algorithm/BinarySearchProblem.java)
