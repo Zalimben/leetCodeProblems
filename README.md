@@ -33,5 +33,8 @@ I will push [LeetCode](https://leetcode.com/) Solutions to this project
 - [189. Rotate Array](src/main/java/algorithm/RotateArray.java)
 - [567. Permutation in String](src/main/java/algorithm/PermutationString.java)
 - [792. Number of Matching Subsequences](src/main/java/algorithm/NumberMatchingSubsequences.java)
+#### Hard
+- [4. Median of Two Sorted Arrays](src/main/java/algorithm/MedianTwoSortedArrays.java)
+
 ### Miscellaneous
 - [Example Stream/Iteration Transformation](src/main/java/algorithm/ExampleStreamTransformation.java)
