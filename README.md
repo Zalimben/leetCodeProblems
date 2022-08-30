@@ -27,6 +27,7 @@ I will push [LeetCode](https://leetcode.com/) Solutions to this project
 - [2. Add Two Numbers](src/main/java/algorithm/AddTwoNumbers.java)
 - [3. Longest Substring Without Repeating Characters](src/main/java/algorithm/LongestSubstringWithoutRepeatingChars.java)
 - [19. Remove Nth Node From End of List](src/main/java/algorithm/RemoveNodeFromEndList.java)
+- [48. Rotate Image](src/main/java/algorithm/RotateImage.java)
 - [86. Partition List](src/main/java/algorithm/PartitionList.java)
 - [92. Reverse Linked List II](src/main/java/algorithm/ReverseLinkedListII.java)
 - [114. Flatten Binary Tree to Linked List](src/main/java/algorithm/FlattenBinaryTree.java)
