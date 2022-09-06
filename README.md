@@ -26,6 +26,7 @@ I will push [LeetCode](https://leetcode.com/) Solutions to this project
 #### Medium
 - [2. Add Two Numbers](src/main/java/algorithm/AddTwoNumbers.java)
 - [3. Longest Substring Without Repeating Characters](src/main/java/algorithm/LongestSubstringWithoutRepeatingChars.java)
+- [5. Longest Palindromic Substring](src/main/java/algorithm/LongestPalindrome.java)
 - [19. Remove Nth Node From End of List](src/main/java/algorithm/RemoveNodeFromEndList.java)
 - [48. Rotate Image](src/main/java/algorithm/RotateImage.java)
 - [86. Partition List](src/main/java/algorithm/PartitionList.java)
