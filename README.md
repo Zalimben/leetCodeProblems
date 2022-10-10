@@ -42,3 +42,4 @@ I will push [LeetCode](https://leetcode.com/) Solutions to this project
 
 ### Miscellaneous
 - [Example Stream/Iteration Transformation](src/main/java/algorithm/ExampleStreamTransformation.java)
+- [Max Number](src/main/java/algorithm/MaxNumber.java)
