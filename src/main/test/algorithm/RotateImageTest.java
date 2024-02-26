@@ -1,31 +1,27 @@
 package main.test.algorithm;
 
-import static main.java.algorithm.FloodFill.floodFillRecursive;
-import static main.java.algorithm.RotateImage.rotateImage;
-import static org.junit.jupiter.api.DynamicTest.dynamicTest;
+import org.junit.jupiter.api.DynamicTest;
+import org.junit.jupiter.api.TestFactory;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
 
-import org.junit.jupiter.api.DynamicTest;
-import org.junit.jupiter.api.TestFactory;
-import org.testng.internal.collections.Pair;
+import static main.java.algorithm.RotateImage.rotateImage;
+import static org.junit.jupiter.api.DynamicTest.dynamicTest;
 
-public class RotateImageTest
-{
+public class RotateImageTest {
     @TestFactory
-    Stream<DynamicTest> dynamicTests()
-    {
+    Stream<DynamicTest> dynamicTests() {
         int[][] imageTest = {
-            {1, 1, 1},
-            {1, 1, 0},
-            {1, 0, 1}
+                {1, 1, 1},
+                {1, 1, 0},
+                {1, 0, 1}
         };
         int[][] imageTest2 = {
-            {1,2,3},
-            {4,5,6},
-            {7,8,9}
+                {1, 2, 3},
+                {4, 5, 6},
+                {7, 8, 9}
         };
         List<int[][]> testImages = new ArrayList<>();
         testImages.add(imageTest);
@@ -33,7 +29,7 @@ public class RotateImageTest
 
         List<DynamicTest> dynamicTests = new ArrayList<>();
 
-        for(int idx = 0; idx < testImages.size(); idx++) {
+        for (int idx = 0; idx < testImages.size(); idx++) {
             int[][] image = testImages.get(idx);
             DynamicTest dynamicTest = dynamicTest("Dynamic Test for rotateImage: ", () -> {
                 System.out.println();
@@ -48,11 +44,10 @@ public class RotateImageTest
         return dynamicTests.stream();
     }
 
-    private static void printImage(int[][] result)
-    {
-        for(int[] rowPaint : result) {
+    private static void printImage(int[][] result) {
+        for (int[] rowPaint : result) {
             System.out.println();
-            for(int i : rowPaint) {
+            for (int i : rowPaint) {
                 System.out.print(i);
                 System.out.print(" ");
             }

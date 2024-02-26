@@ -28,6 +28,7 @@ I will push [LeetCode](https://leetcode.com/) Solutions to this project
 - [3. Longest Substring Without Repeating Characters](src/main/java/algorithm/LongestSubstringWithoutRepeatingChars.java)
 - [5. Longest Palindromic Substring](src/main/java/algorithm/LongestPalindrome.java)
 - [19. Remove Nth Node From End of List](src/main/java/algorithm/RemoveNodeFromEndList.java)
+- [46. Permutations](src/main/java/algorithm/Permutation.java)
 - [48. Rotate Image](src/main/java/algorithm/RotateImage.java)
 - [86. Partition List](src/main/java/algorithm/PartitionList.java)
 - [92. Reverse Linked List II](src/main/java/algorithm/ReverseLinkedListII.java)
