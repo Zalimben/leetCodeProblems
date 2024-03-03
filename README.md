@@ -7,6 +7,7 @@ I will push [LeetCode](https://leetcode.com/) Solutions to this project
 ### Algorithm
 #### Easy
 - [1. Two Sum](src/main/java/algorithm/TwoSum.java)
+- [9. Palindrome Number](src/main/java/algorithm/Palindrome.java)
 - [35. Search Insert Position](src/main/java/algorithm/SearchInsertPosition.java)
 - [118. Pascal's Triangle](src/main/java/algorithm/PascalTriangle.java)
 - [234. Palindrome Linked List](src/main/java/algorithm/PalindromeLinkedList.java)
@@ -45,3 +46,4 @@ I will push [LeetCode](https://leetcode.com/) Solutions to this project
 - [Example Stream/Iteration Transformation](src/main/java/algorithm/ExampleStreamTransformation.java)
 - [Max Number](src/main/java/algorithm/MaxNumber.java)
 - [Stock Span Problem](src/main/java/algorithm/StockSpanProblem.java)
+- 
