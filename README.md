@@ -23,6 +23,7 @@ I will push [LeetCode](https://leetcode.com/) Solutions to this project
 - [804. Unique Morse Code Words](src/main/java/algorithm/UniqueMorseCodeWords.java)
 - [876. Middle of the Linked List](src/main/java/algorithm/MiddleOfLinkedList.java)
 - [977. Squares of a Sorted Array](src/main/java/algorithm/SquaresSortedArray.java)
+- [2239. Find Closest Number to Zero](src/main/java/algorithm/ClosestNumber.java)
 - [2341. Maximum Number of Pairs in Array](src/main/java/algorithm/MaximumNumberPairsArray.java)
 #### Medium
 - [2. Add Two Numbers](src/main/java/algorithm/AddTwoNumbers.java)
@@ -38,6 +39,7 @@ I will push [LeetCode](https://leetcode.com/) Solutions to this project
 - [189. Rotate Array](src/main/java/algorithm/RotateArray.java)
 - [200. Number of Islands](src/main/java/algorithm/NumberOfIsland.java)
 - [567. Permutation in String](src/main/java/algorithm/PermutationString.java)
+- [658. Find K Closest Elements](src/main/java/algorithm/FindKClosestElements.java)
 - [792. Number of Matching Subsequences](src/main/java/algorithm/NumberMatchingSubsequences.java)
 #### Hard
 - [4. Median of Two Sorted Arrays](src/main/java/algorithm/MedianTwoSortedArrays.java)
@@ -46,4 +48,3 @@ I will push [LeetCode](https://leetcode.com/) Solutions to this project
 - [Example Stream/Iteration Transformation](src/main/java/algorithm/ExampleStreamTransformation.java)
 - [Max Number](src/main/java/algorithm/MaxNumber.java)
 - [Stock Span Problem](src/main/java/algorithm/StockSpanProblem.java)
-- 
