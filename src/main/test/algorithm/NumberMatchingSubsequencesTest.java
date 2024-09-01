@@ -13,8 +13,7 @@ import org.junit.jupiter.api.DynamicTest;
 import org.junit.jupiter.api.TestFactory;
 
 
-class NumberMatchingSubsequencesTest
-{
+class NumberMatchingSubsequencesTest {
     @TestFactory
     Stream<DynamicTest> dynamicTests() {
         List<String> input1List = List.of(
@@ -43,9 +42,9 @@ class NumberMatchingSubsequencesTest
             String s = input1List.get(idx);
             String[] words = input2List.get(idx).toArray(new String[0]);
             int expected = returns.get(idx);
-            DynamicTest dynamicTest = dynamicTest("Dynamic Test for numMatchingSubseq: " + s, () -> {
-                assertEquals(expected, numMatchingSubseq(s, words));
-            });
+            DynamicTest dynamicTest = dynamicTest("Dynamic Test for numMatchingSubseq: " + s, () ->
+                assertEquals(expected, numMatchingSubseq(s, words))
+            );
             dynamicTests.add(dynamicTest);
         }
 
