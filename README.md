@@ -7,7 +7,7 @@ I will push [LeetCode](https://leetcode.com/) Solutions to this project
 ### Algorithm
 #### Easy
 - [1. Two Sum](src/main/java/algorithm/TwoSum.java)
-- [9. Palindrome Number](src/main/java/algorithm/Palindrome.java)
+- [9. Palindrome Number](src/main/java/algorithm/PalindromeNumber.java)
 - [35. Search Insert Position](src/main/java/algorithm/SearchInsertPosition.java)
 - [118. Pascal's Triangle](src/main/java/algorithm/PascalTriangle.java)
 - [234. Palindrome Linked List](src/main/java/algorithm/PalindromeLinkedList.java)
@@ -23,6 +23,7 @@ I will push [LeetCode](https://leetcode.com/) Solutions to this project
 - [804. Unique Morse Code Words](src/main/java/algorithm/UniqueMorseCodeWords.java)
 - [876. Middle of the Linked List](src/main/java/algorithm/MiddleOfLinkedList.java)
 - [977. Squares of a Sorted Array](src/main/java/algorithm/SquaresSortedArray.java)
+- [1768. Merge Strings Alternately](src/main/java/algorithm/MergeStringsAlternately.java)
 - [2239. Find Closest Number to Zero](src/main/java/algorithm/ClosestNumber.java)
 - [2341. Maximum Number of Pairs in Array](src/main/java/algorithm/MaximumNumberPairsArray.java)
 #### Medium
